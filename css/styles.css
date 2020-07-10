@@ -5,13 +5,7 @@
 }
 
 body{
-    background-image: url("https://img.freepik.com/free-vector/portfolio-banner_80328-36.jpg?size=626&ext=jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.8;
-    position: relative;
-    overflow-y: auto;
-    font-weight: normal;
+    background-color: #c7b0b0;
     
 }
 .navbar {
@@ -196,7 +190,7 @@ images >p{
     cursor: pointer;
     transition: background 0.3s;
 }
-.container>.form-group>.form-box{
+#contact>.form-group>.form-box{
   float: center;
   padding:20px 0px
 }
