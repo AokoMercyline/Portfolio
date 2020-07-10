@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #c7b0b0;
+    background-color: white;
     
 }
 .navbar {
@@ -100,10 +100,11 @@ images >p{
 
 }
 
-#aboutme{
+#me{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  background-color: rgb(211, 206, 206);
 
 }
 
