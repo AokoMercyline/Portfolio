@@ -8,9 +8,10 @@ This websites describe me and projects have been working on.
 ## Setup/Installation Requirements
 * Open my terminal .
 * Created my project folder on Desktop using command line and name it MY-PROJECTS PORTFOLIO.
+* git clone my work "https://github.com/AokoMercyline/Portfolio.git"
 * Initialized my project with github.
 * Opened my VS Code from terminal and started coding my project.
-* Make changes and committed to final page.
+* Make changes and committed to git.
 
 ## Technologies Used
 * I used Html to provide structure for my webpage
