@@ -105,6 +105,7 @@ images >p{
   flex-wrap: wrap;
   justify-content: space-between;
   background-color: rgb(211, 206, 206);
+  padding: 100px;
 
 }
 
