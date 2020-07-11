@@ -115,6 +115,7 @@ images > p {
   color: white;
   text-align: center;
 }
+
 .secrets > h3 {
   color: white;
   display: flex;
@@ -123,7 +124,9 @@ images > p {
 #me .aboutme > h1 {
   text-align: center;
   color: rgb(255, 255, 255);
+
 }
+
 #contact {
   padding: 100px;
   color: rgb(7, 187, 37);
@@ -134,8 +137,7 @@ images > p {
   padding: 5px;
 }
 
-.contact,
-h3 {
+.contact,h3 {
   text-align: center;
   padding: 10px;
 }
