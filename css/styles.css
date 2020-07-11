@@ -109,8 +109,12 @@ images >p{
 
 }
 
-.hobby {
-  color:black;
+.hobby >h2{
+  color:white;
+}
+ .secrets> h3{
+  text-align: left;
+  color: white;
 }
 
 #contact{
