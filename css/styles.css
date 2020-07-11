@@ -1,24 +1,21 @@
-*{
-    margin: 0;
-    padding: 0;
-    
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    background-color: white;
-    
+body {
+  background-color: white;
 }
 .navbar {
   overflow: hidden;
-  background-color:burlywood;
+  background-color: burlywood;
   font-family: Arial;
   justify-content: space-around;
 }
 
-li{
+li {
   list-style-type: none;
 }
-
 
 .navbar a {
   float: left;
@@ -29,206 +26,205 @@ li{
   text-decoration: none;
 }
 .dropdown {
-    float: left;
-    overflow: hidden;
-  }
-  .dropdown .dropbtn {
-    font-size: 16px;
-    border: none;
-    outline: none;
-    color:white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit; 
-    margin: 0; 
-  }
+  float: left;
+  overflow: hidden;
+}
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
 
-  .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
-  }
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: red;
+}
 
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
 
-  .dropdown-content a {
-    float: none;
-    color:black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
 
 .dropdown-content a:hover {
   background-color: #ddd;
 }
 
 .dropdown:hover .dropdown-content {
-    display: block;
-  }
+  display: block;
+}
 
-  nav {
-    background-color:white;
-    padding: 1px;
-    display: flex;
-    justify-content: center;
-  }
+nav {
+  background-color: white;
+  padding: 1px;
+  display: flex;
+  justify-content: center;
+}
 
-  nav ul li{
-    display: inline;
-  }
+nav ul li {
+  display: inline;
+}
 
- .images{
-  display: flex; 
- }
+.images {
+  display: flex;
+}
 
-img{
+img {
   height: 200px;
   width: 200px;
   border-radius: 50%;
   padding: 30px;
   margin-left: 100px;
-} 
-images >p{
+}
+images > p {
   font-weight: 700;
-
 }
 
-#me{
+#me {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   background-color: rgb(211, 206, 206);
   padding: 100px;
-
 }
 
 .hobby {
-  color:black;
+  color: black;
   font-family: Arial, Helvetica, sans-serif;
-  display: flex;
-  float: right;
-  
+  margin-left: 50%;
 }
-.hobby> h2{
+
+.hobby > h2 {
   color: white;
+  text-align: center;
 }
-.secrets> h3{
+.secrets > h3 {
   color: white;
   display: flex;
 }
 
-#me .aboutme > h1{
+#me .aboutme > h1 {
   text-align: center;
   color: rgb(255, 255, 255);
-  
 }
-#contact{
+#contact {
   padding: 100px;
-  color: rgb(7, 187, 37); 
+  color: rgb(7, 187, 37);
 }
 
-  .foot-1{
-    border: lightslategray;
-    padding: 5px;
-  }
+.foot-1 {
+  border: lightslategray;
+  padding: 5px;
+}
 
-  .contact, h3{
-    text-align: center;
-    padding: 10px;
-  }
+.contact,
+h3 {
+  text-align: center;
+  padding: 10px;
+}
 
-  #contact {
-    padding: 5rem 0;
+#contact {
+  padding: 5rem 0;
 }
 
 #contact h2 {
-    text-align: center;
-    font-size: 3rem;
-    margin-bottom: 8rem;
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 8rem;
 }
 
 #contact h3 {
-    text-align: center;
-    font-size: 2.5rem;
-    margin: 3rem 0;
-    margin-top: 5rem;
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 3rem 0;
+  margin-top: 5rem;
 }
 
 #contact .form-box {
-    background: #fff;
-    padding: 3rem;
-    box-shadow: 2px 2px 5px #D1D1D1;
-    border: 10px;
+  background: #fff;
+  padding: 3rem;
+  box-shadow: 2px 2px 5px #d1d1d1;
+  border: 10px;
 }
 
 #contact .form-group {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 #contact .form-group label {
-    display: block;
-    margin-bottom: 0.5rem;
-    width: 80%;
-    margin-left: 10%;
-    font-size: 1.1rem;
+  display: block;
+  margin-bottom: 0.5rem;
+  width: 80%;
+  margin-left: 10%;
+  font-size: 1.1rem;
 }
 
 #contact .form-group input,
 #contact .form-group textarea {
-    width: 80%;
-    margin-left: 10%;
-    font-size: 1.3rem;
-    padding: 1rem;
-    border: 0.5px solid #333;
-    border-radius: 5px;
+  width: 80%;
+  margin-left: 10%;
+  font-size: 1.3rem;
+  padding: 1rem;
+  border: 0.5px solid #333;
+  border-radius: 5px;
 }
 
 #contact .form-group textarea {
-    font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 #contact .contact-btn {
-    width: 80%;
-    margin-left: 10%;
-    display: inline-block;
-    padding: 1rem 3rem;
-    border: none;
-    border-radius: 5px;
-    font-size: 1.5rem;
-    background: #3693FF;
-    color: #fff;
-    margin-bottom: 2rem;
-    cursor: pointer;
-    transition: background 0.3s;
+  width: 80%;
+  margin-left: 10%;
+  display: inline-block;
+  padding: 1rem 3rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  background: #3693ff;
+  color: #fff;
+  margin-bottom: 2rem;
+  cursor: pointer;
+  transition: background 0.3s;
 }
-#contact>.form-group>.form-box{
+#contact > .form-group > .form-box {
   float: center;
-  padding:20px 0px
+  padding: 20px 0px;
 }
 
-#contact .contact-btn:hover{
-    background: #0378FF
+#contact .contact-btn:hover {
+  background: #0378ff;
 }
 
-.media{
+.media {
   justify-content: space-between;
-  padding: 5px ;
+  padding: 5px;
   display: flex;
 }
 
-.foot-1{
+.foot-1 {
   padding: 10px;
   background-color: blanchedalmond;
   justify-content: space-between;
 }
 
-.licenses{
+.licenses {
   text-align: center;
 }
