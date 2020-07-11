@@ -31,6 +31,5 @@ This websites describe me and projects have been working on.
 
 
 ### License
-
-* *
+*This project is licences under <a href="https://opensource.org/licenses/MIT"> MIT LICENSE</a>*
 Copyright (c) 2020 **Aoko Mercyline**
