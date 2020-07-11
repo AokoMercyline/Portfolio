@@ -203,6 +203,8 @@ images >p{
 
 .media{
   justify-content: space-between;
+  padding: 5px ;
+  display: flex;
 }
 
 .foot-1{
