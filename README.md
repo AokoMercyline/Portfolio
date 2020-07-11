@@ -11,7 +11,7 @@ This websites describe me and projects have been working on.
 * git clone my work "https://github.com/AokoMercyline/Portfolio.git"
 * Initialized my project with github.
 * Opened my VS Code from terminal and started coding my project.
-* Make changes and committed to git.
+* Make changes and commited to git.
 
 ## Technologies Used
 * I used Html to provide structure for my webpage
