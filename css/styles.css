@@ -100,7 +100,7 @@ images > p {
 #me {
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: space-between; */
+  justify-content: space-between; 
   background-color: rgb(211, 206, 206);
   padding: 100px;
 }
