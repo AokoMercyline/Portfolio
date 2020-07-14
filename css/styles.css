@@ -107,7 +107,7 @@ images > p {
 
 .hobby {
   margin-left: 50%;
-  margin-top: -31%;
+  margin-top: -22%;
   text-align: center;
   font-size: 18px;
   float: right;
@@ -116,6 +116,10 @@ images > p {
 .aboutme {
   text-align: center;
   margin-top: -9%;
+}
+
+.text-primary{
+  color:blue;
 }
 
  h2 {
@@ -144,7 +148,7 @@ h1 {
 }
 
 strong {
-  color: blue;
+  color:blue;
 }
 
 #contact {
